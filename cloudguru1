@@ -1,0 +1,14 @@
+kubectl get nodes
+#List all the pods in all namespaces.
+kubectl get pods --all-namespaces
+#Use the following command to list the pods in all namespaces:
+
+kubectl get pods --all-namespaces
+
+#List all the namespaces in the cluster.
+kubectl get namespaces
+#Check to see if there are any pods running in the default namespace.
+kubectl get pods
+#Find the IP address of the API server running on the master node.
+kubectl get pods --all-namespaces -o wide
+#kubectl get no --show-labels
